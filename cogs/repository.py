@@ -6,7 +6,7 @@ import io
 import re
 
 
-class Data(commands.Cog):
+class Repository(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -23,4 +23,4 @@ class Data(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(Data(bot))
+    bot.add_cog(Repository(bot))

@@ -21,7 +21,7 @@ class Utility(commands.Cog):
         await ctx.send('https://nohello.net/')
 
     @commands.command()
-    async def xkcd(self, ctx, arguments = None):
+    async def xkcd(self, ctx, arguments=None):
         if not arguments:
             await ctx.send('Please provide arguments e.g g!xkcd <comic_number>')
         else:
@@ -33,7 +33,7 @@ class Utility(commands.Cog):
                     url='https://xkcd.com/' + str(arguments) + '/',
                     type='image',
                     description=xkcd_result_json['alt']
-                    )
+                )
                 xkcd_embed.set_image(url=xkcd_result_json['img'])
                 xkcd_embed.set_footer(text='xkcd #' + str(arguments))
                 await ctx.send(embed=xkcd_embed)
