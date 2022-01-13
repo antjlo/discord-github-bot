@@ -21,7 +21,7 @@ class Utility(commands.Cog):
         await ctx.send('https://nohello.net/')
 
     @commands.command()
-    async def xkcd(self, ctx, arguments=None):
+    async def xkcd(self, ctx, arguments = None):
         if not arguments:
             await ctx.send('Please provide arguments e.g g!xkcd <comic_number>')
         else:
