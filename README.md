@@ -10,3 +10,5 @@ config.json format (required for bot to run)
   "status_channel": 
 }
 ```
+
+for more info visit ![Getting Started](https://github.com/antjlo/discord-github-bot/wiki/Getting-Started) to get started or ![Configuration](https://github.com/antjlo/discord-github-bot/wiki/Configuration) for configuration
