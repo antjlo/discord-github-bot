@@ -1,0 +1,4 @@
+site_name: discord-github-bot
+
+theme:
+  name: material
