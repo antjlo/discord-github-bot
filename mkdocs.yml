@@ -1,6 +1,7 @@
 site_name: discord-github-bot
 repo_url: https://github.com/antjlo/discord-github-bot
 repo_name: antjlo/discord-github-bot
+edit_uri: ""
 
 
 theme:
@@ -47,6 +48,7 @@ extra:
 
 nav:
   - Home:
+    - index.md
     - About: About.md
     - Contributing: Contributing.md
   - Getting Started:
